@@ -1,0 +1,3 @@
+ori_dir: "/home/ubuntu/workspace/ywshin/HybridNets/iou_sample/"
+# pred_dir: "/home/ubuntu/workspace/ywshin/HybridNets/test_result/"
+pred_dir: "/home/ubuntu/workspace/ywshin/patrasche/YOLOP/iou_rslt/"
