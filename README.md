@@ -6,11 +6,11 @@
 
 |모델명                                                  |데이터셋|eval 결과 (mIOU)|비고|
 |---                                                    |---|---|---|
-|[HybridNets](https://github.com/datvuthanh/HybridNets)|/mnt/vitasoft/2021\ 파트라슈\ 레거시/dataset/self_tag/|0.9418|conda env = yolox, half(float16 연산) 적용, fine tuned on [hybridnets.pth](https://github.com/datvuthanh/HybridNets/releases/download/v1.0/hybridnets.pth) |
-|[YOLOP](https://github.com/hustvl/YOLOP)|/mnt/vitasoft/2021\ 파트라슈\ 레거시/dataset/self_tag/|0.8894|conda env = owod, morphology 적용한 후 성능 평가, from scratch|
-|[Lawin transformer](https://arxiv.org/abs/2201.01615)|/mnt/vitasoft/2021\ 파트라슈\ 레거시/dataset/self_tag/|0.8650|official code release 되기 전. [semantic segmentation](https://github.com/sithu31296/semantic-segmentation)를 참조하여 inference 진행. 약 50ms 의 inference 속도를 가짐(batch_size == 1)|
+|[HybridNets](https://github.com/datvuthanh/HybridNets)|private|0.9418|conda env = yolox, half(float16 연산) 적용, fine tuned on [hybridnets.pth](https://github.com/datvuthanh/HybridNets/releases/download/v1.0/hybridnets.pth) |
+|[YOLOP](https://github.com/hustvl/YOLOP)|private|0.8894|conda env = owod, morphology 적용한 후 성능 평가, from scratch|
+|[Lawin transformer](https://arxiv.org/abs/2201.01615)|private|0.8650|official code release 되기 전. [semantic segmentation](https://github.com/sithu31296/semantic-segmentation)를 참조하여 inference 진행. 약 50ms 의 inference 속도를 가짐(batch_size == 1)|
 |[PIDNet-Pretrained](https://github.com/XuJiacong/PIDNet)|cityscapes 데이터셋|0.7549|PIDNet_L_Cityscapes_test.pt 모델이 사용되었으며, Imagenet 데이터셋으로 pretrain 후 cityscapes 데이터셋으로 fine-tuned 됨.|
-|[PIDNet](https://github.com/XuJiacong/PIDNet)|/mnt/vitasoft/2021\ 파트라슈\ 레거시/dataset/self_tag/|0.8479|real-time SOTA로 paperswithcode에서 확인, 파트라슈 프로젝트 기준 SOTA X|
+|[PIDNet](https://github.com/XuJiacong/PIDNet)|private|0.8479|real-time SOTA로 paperswithcode에서 확인, 파트라슈 프로젝트 기준 SOTA X|
 
 성능 평가용 이미지는 비공개이며, 일부만 demo에 공개합니다.
 
